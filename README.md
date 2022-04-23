@@ -3,7 +3,7 @@
 
 **Breakout** is an arcade game made during the first part of the **DBGA**'s course
 
-<img src="https://github.com/xPoke-glitch/Breakout_DBGA_Ghiorzi/blob/main/Screenshots/breakout_screen.png" width="750">
+<img src="https://github.com/DBGameAcademy/Breakout_DBGA_Ghiorzi/blob/main/Screenshots/breakout_screen.png" width="750">
 
 ## The game
 
@@ -33,7 +33,7 @@ The commands are really simple:
 ## Gameplay example
 This is an example that shows you how the game looks like. In this scene you can see in action some of the new power ups and the VFXs of the game. 
 
-<img src="https://github.com/xPoke-glitch/Breakout_DBGA_Ghiorzi/blob/main/Screenshots/breakout_gameplay.gif" width="750">
+<img src="https://github.com/DBGameAcademy/Breakout_DBGA_Ghiorzi/blob/main/Screenshots/breakout_gameplay.gif" width="750">
 
 ## Team
 
