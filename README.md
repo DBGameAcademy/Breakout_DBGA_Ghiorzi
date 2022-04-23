@@ -24,7 +24,7 @@ If you want to open, edit or see the Unity project:
 
 ## How to play
 
-In order to play the game, you can download the project and go to: **Breakout > Builds** and run the application: **Breakout.exe**
+In order to play the game, you can download the project and go to: **Breakout_DBGA_Ghiorzi > Build** and run the application: **Breakout.exe**
 
 The commands are really simple:
 * Left arrow: move paddle to the left
