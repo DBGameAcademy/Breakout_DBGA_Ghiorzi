@@ -20,7 +20,7 @@ If you only want to run the game and play:
 * Windows 64bit
 
 If you want to open, edit or see the Unity project:
-* Unity 2020.3.20f1 (or greater)
+* Unity 2020.3.26f1 (or greater)
 
 ## How to play
 
