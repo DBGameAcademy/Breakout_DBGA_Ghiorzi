@@ -36,6 +36,10 @@ This is an example that shows you how the game looks like. In this scene you can
 
 <img src="https://github.com/DBGameAcademy/Breakout_DBGA_Ghiorzi/blob/main/Screenshots/breakout_gameplay.gif" width="750">
 
+There are also some cool features, for example you can customize your paddle
+
+<img src="https://github.com/DBGameAcademy/Breakout_DBGA_Ghiorzi/blob/main/Screenshots/customization.gif" width="750">
+
 ## Team
 
 **Developers**:
