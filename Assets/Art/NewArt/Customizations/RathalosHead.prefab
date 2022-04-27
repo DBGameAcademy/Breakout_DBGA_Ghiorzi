@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 729214870891791294}
   - component: {fileID: 729214870891791295}
+  - component: {fileID: 3913682377578033047}
   m_Layer: 0
   m_Name: RathalosHead_2
   m_TagString: Untagged
@@ -82,6 +83,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &3913682377578033047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 729214870891791293}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73e32e232d1cbea42a4d7d3dd4d139e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &729214871654567584
 GameObject:
   m_ObjectHideFlags: 0
@@ -92,6 +105,7 @@ GameObject:
   m_Component:
   - component: {fileID: 729214871654567585}
   - component: {fileID: 729214871654567586}
+  - component: {fileID: 424294686149093367}
   m_Layer: 0
   m_Name: RathalosHead_1
   m_TagString: Untagged
@@ -164,6 +178,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &424294686149093367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 729214871654567584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73e32e232d1cbea42a4d7d3dd4d139e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7772048903792112922
 GameObject:
   m_ObjectHideFlags: 0

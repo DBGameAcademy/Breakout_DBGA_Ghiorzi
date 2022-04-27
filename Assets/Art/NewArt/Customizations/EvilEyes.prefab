@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 830031708773510190}
   - component: {fileID: 830031708773510185}
+  - component: {fileID: 8925838458905870801}
   m_Layer: 0
   m_Name: EvilEyes
   m_TagString: Untagged
@@ -82,3 +83,15 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &8925838458905870801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 830031708773510191}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73e32e232d1cbea42a4d7d3dd4d139e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

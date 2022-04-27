@@ -60,6 +60,9 @@ public class Paddle : MonoBehaviour
         if (value <= 0)
             return;
 
+        StretchCustomizations(value);
+
+        // Stretch Paddle
         _collider.size = new Vector2(value, _collider.size.y);
         _spriteRenderer.size = new Vector2(value, _spriteRenderer.size.y);
     }
@@ -78,5 +81,19 @@ public class Paddle : MonoBehaviour
     {
         moveSpeed = _defaultMoveSpeed;
         acceleratedSpeed = _defaultAcceleratedSpeed;
+    }
+
+    private void StretchCustomizations(float value)
+    {
+        // Stretch Customizations
+        Customization[] customs = GetComponentsInChildren<Customization>();
+        
+        if (customs.Length == 0)
+            return;
+
+        foreach (Customization custom in customs)
+        {
+            custom.Stretch((value - _spriteRenderer.size.x) / 2.0f);
+        }
     }
 }
