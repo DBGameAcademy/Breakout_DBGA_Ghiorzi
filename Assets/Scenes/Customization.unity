@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 29812497}
   - component: {fileID: 29812496}
   - component: {fileID: 29812495}
+  - component: {fileID: 29812492}
   m_Layer: 0
   m_Name: Paddle
   m_TagString: Paddle
@@ -142,6 +143,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &29812492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 29812491}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bfa9b249cb84a54fba25a1d06f6af79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!50 &29812495
 Rigidbody2D:
   serializedVersion: 4
@@ -336,7 +349,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 132269735}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1638567863}
+        m_TargetAssemblyTypeName: GameScenesManager, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Game
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &132269735
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -726,7 +751,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f34c206dd8fcf224aaccdb8a64d19b46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  paddleObj: {fileID: 29812491}
   customizations:
   - {fileID: 830031708773510191, guid: 8027d957887227f45b457b442035456d, type: 3}
   - {fileID: 830031708773510191, guid: 318fa8f14e5cffe41a72976653cdac6a, type: 3}
@@ -979,6 +1003,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1638567862}
+  - component: {fileID: 1638567863}
   m_Layer: 0
   m_Name: GameScenesManager
   m_TagString: Untagged
@@ -1000,6 +1025,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1638567863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1638567861}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c48d239493debfc4fb13359dac3e939c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1907520134
 GameObject:
   m_ObjectHideFlags: 0
