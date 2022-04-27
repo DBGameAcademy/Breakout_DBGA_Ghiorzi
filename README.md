@@ -29,6 +29,7 @@ In order to play the game, you can download the project and go to: **Breakout_DB
 The commands are really simple:
 * Left arrow: move paddle to the left
 * Right arrow: move paddle to the right
+* Left or Right arrow + Left Shift: accelerate
 
 ## Gameplay example
 This is an example that shows you how the game looks like. In this scene you can see in action some of the new power ups and the VFXs of the game. 
