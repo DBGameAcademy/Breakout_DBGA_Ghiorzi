@@ -56,6 +56,16 @@ public class CustomizationController : Singleton<CustomizationController>
 
         _loader = FindObjectOfType<CustomizationLoader>();
 
+        // Remove Other instance of CustomizationController
+        CustomizationController[] controllers = FindObjectsOfType<CustomizationController>();
+        foreach(CustomizationController controller in controllers)
+        {
+            if (!controller.Equals(this))
+            {
+                Destroy(controller.gameObject);
+            }
+        }
+
         DontDestroyOnLoad(this.gameObject);
     }
 }

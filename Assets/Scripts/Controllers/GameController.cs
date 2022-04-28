@@ -106,6 +106,11 @@ public class GameController : Singleton<GameController>
         UIController.Instance.ShowStartGame();
     }
 
+    public void GoToMainMenu()
+    {
+        GameScenesManager.Instance.LoadScene("Menu");
+    }
+
     private void GameWon()
     {
         UIController.Instance.ShowWinGame();
