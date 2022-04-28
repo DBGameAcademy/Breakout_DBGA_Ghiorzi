@@ -16,10 +16,8 @@ public class CustomizationController : Singleton<CustomizationController>
         if (_loader == null)
             return;
 
-        
         _currentIndex = (_currentIndex + 1) % customizations.Count;
- 
-        //ShowCustomization(_currentIndex);
+
         _loader.LoadCustomization();
     }
 
@@ -37,7 +35,6 @@ public class CustomizationController : Singleton<CustomizationController>
             _currentIndex = ((_currentIndex - 1) % customizations.Count);
         }
        
-        // ShowCustomization(_currentIndex);
         _loader.LoadCustomization();
     }
 
@@ -56,17 +53,9 @@ public class CustomizationController : Singleton<CustomizationController>
         }
 
         _currentIndex = 0;
-        //ShowCustomization(_currentIndex);
 
         _loader = FindObjectOfType<CustomizationLoader>();
 
         DontDestroyOnLoad(this.gameObject);
     }
-    /*
-    private void ShowCustomization(int index)
-    {
-        _currentCustomization = Instantiate(customizations[index], paddleObj.transform);
-    }*/
-
-
 }
