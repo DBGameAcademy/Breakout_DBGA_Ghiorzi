@@ -10,6 +10,7 @@ public class CustomizationController : Singleton<CustomizationController>
     private int _currentIndex;
 
     private CustomizationLoader _loader;
+    private Color _currentColor;
 
     public void GoForward()
     {
@@ -41,6 +42,16 @@ public class CustomizationController : Singleton<CustomizationController>
     public GameObject GetCurrentCustomization()
     {
         return customizations[_currentIndex];
+    }
+
+    public Color GetCurrentColor()
+    {
+        return _currentColor;
+    }
+
+    public void UpdateCurrentColor(Color color)
+    {
+        _currentColor = color;
     }
 
     protected override void Awake()
