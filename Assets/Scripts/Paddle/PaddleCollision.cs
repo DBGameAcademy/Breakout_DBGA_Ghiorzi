@@ -35,7 +35,6 @@ public class PaddleCollision : MonoBehaviour
             collision.gameObject.tag.ToLower().Equals("paddle"))
         {
             ContactPoint2D contactPoint = collision.GetContact(0);
-            Debug.Log(contactPoint.point.x);
 
             if (contactPoint.point.x > transform.position.x)
             {
