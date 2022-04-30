@@ -3,7 +3,7 @@
 
 **Breakout** is an arcade game made during the first part of the **DBGA**'s course
 
-<img src="https://github.com/DBGameAcademy/Breakout_DBGA_Ghiorzi/blob/main/Screenshots/breakout_screen.png" width="750">
+<img src="https://github.com/DBGameAcademy/Breakout_DBGA_Ghiorzi/blob/main/Screenshots/menu.gif" width="750">
 
 ## The game
 
