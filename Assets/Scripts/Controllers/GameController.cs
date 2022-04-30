@@ -108,6 +108,7 @@ public class GameController : Singleton<GameController>
 
     public void GoToMainMenu()
     {
+        Time.timeScale = 1;
         GameScenesManager.Instance.LoadScene("Menu");
     }
 

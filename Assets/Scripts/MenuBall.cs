@@ -20,7 +20,7 @@ public class MenuBall : MonoBehaviour
     [SerializeField]
     private ParticleSystem hitSmoke;
 
-    private Vector2 _velocity;
+    private Vector2 _velocity = new Vector2(4, 4);
 
     private CircleCollider2D _circleCollider;
     private GameObject _lastObjectHit;
@@ -28,6 +28,10 @@ public class MenuBall : MonoBehaviour
     private void Awake()
     {
         _circleCollider = GetComponent<CircleCollider2D>();
+    }
+
+    private void Start()
+    {
         _velocity = new Vector2(4, 4);
     }
 
